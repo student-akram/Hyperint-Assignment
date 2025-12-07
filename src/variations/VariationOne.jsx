@@ -3,7 +3,7 @@ import React from "react";
 import ProductLayout from "../components/ProductLayout";
 import ReviewSection from "../components/ReviewSection";
 import AnalyticsSection from "../components/AnalyticsSection";
-import SocialProofWidget from "../components/SocialproofWidget";
+import SocialProofWidget from "../components/SocialProofWidget";
 
 const VariationOne = () => {
   return (
