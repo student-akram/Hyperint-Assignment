@@ -1,0 +1,85 @@
+/* -------------------------------------
+   ANALYTICS SECTION
+--------------------------------------*/
+.analytics-section {
+  margin-top: 40px;
+}
+
+.analytics-summary {
+  margin-bottom: 20px;
+  font-size: 16px;
+  color: #555;
+  font-weight: 500;
+}
+
+.analytics-bars {
+  margin-bottom: 20px;
+}
+
+/* Each row */
+.analytics-row {
+  display: flex;
+  align-items: center;
+  margin: 8px 0;
+}
+
+.analytics-label {
+  width: 70px;
+  font-size: 15px;
+}
+
+.analytics-bar-wrapper {
+  flex: 1;
+  height: 8px;
+  margin: 0 12px;
+  background: #e0e0e0;
+  border-radius: 10px;
+}
+
+.analytics-bar-fill {
+  height: 100%;
+  background: #0077ff;
+  border-radius: 10px;
+}
+
+.analytics-value {
+  width: 40px;
+  font-size: 14px;
+  text-align: right;
+}
+
+.analytics-extra {
+  margin-top: 20px;
+  color: #333;
+}
+.analytics-row {
+  transition: transform 0.25s ease;
+}
+
+.analytics-row:hover {
+  transform: translateX(6px);
+}
+
+.analytics-section h2 {
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+.glass-card {
+  background: rgba(255,255,255,0.5);
+  -webkit-backdrop-filter: blur(6px);
+  backdrop-filter: blur(6px);
+  border-radius: 16px;
+  padding: 20px;
+  border: 1px solid rgba(255,255,255,0.2);
+  box-shadow: 0 8px 24px rgba(0,0,0,0.05);
+}
+.analytics-bar-fill {
+  animation: loadBar 1.4s ease forwards;
+}
+@keyframes loadBar {
+  from { width: 0; }
+  to { width: var(--w); }
+}
+
+

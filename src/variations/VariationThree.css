@@ -1,0 +1,65 @@
+.dark-theme {
+  background: #0e0e0e;
+  color: #f5f5f5;
+  min-height: 100vh;
+  padding-bottom: 50px;
+}
+
+.dark-theme * {
+  color: #f5f5f5 !important;
+}
+
+:root {
+  --accent: #18e1d9;
+  --accent-dark: #0fb4ac;
+}
+
+.variation-three-container {
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 40px;
+}
+
+.v3-section {
+  background: #161616;
+  border: 1px solid #222;
+  border-radius: 16px;
+  padding: 28px;
+  margin-bottom: 40px;
+  box-shadow: 0 0 25px rgba(24, 225, 217, 0.08);
+  -webkit-backdrop-filter: blur(6px);
+  backdrop-filter: blur(6px);
+}
+
+.v3-heading {
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  letter-spacing: 1px;
+  color: var(--accent) !important;
+}
+
+/* Review overrides */
+.dark-theme .review-card {
+  background: #1d1d1d !important;
+  border: 1px solid #333 !important;
+}
+
+.dark-theme .review-rating {
+  color: var(--accent) !important;
+}
+
+/* Analytics overrides */
+.dark-theme .analytics-bar-fill {
+  background: var(--accent) !important;
+}
+
+.dark-theme .analytics-extra p {
+  color: var(--accent) !important;
+}
+
+.dark-theme .social-proof-widget {
+  background: #1c1c1c !important;
+  border-left: 4px solid var(--accent);
+  box-shadow: 0px 0px 16px rgba(24, 225, 217, 0.2);
+}
