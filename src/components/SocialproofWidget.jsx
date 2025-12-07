@@ -1,4 +1,4 @@
-// src/components/SocialProofWidget.js
+// src/components/SocialproofWidget.jsx
 import React from "react";
 import "./SocialproofWidget.css";
 
