@@ -1,6 +1,6 @@
 // src/components/SocialProofWidget.js
 import React from "react";
-import "./SocialProofWidget.css";
+import "./SocialproofWidget.css";
 
 const SocialProofWidget = () => {
   return (
@@ -12,4 +12,4 @@ const SocialProofWidget = () => {
   );
 };
 
-export default SocialProofWidget;
+export default SocialproofWidget;
