@@ -2,7 +2,7 @@
 import React from "react";
 import "./SocialproofWidget.css";
 
-const SocialProofWidget = () => {
+const SocialproofWidget = () => {
   return (
     <div className="social-proof-widget">
       <p>
