@@ -1,4 +1,4 @@
-// src/components/ReviewSection.js
+// src/components/ReviewSection.jsx
 import React from "react";
 import "./ReviewSection.css";
 
